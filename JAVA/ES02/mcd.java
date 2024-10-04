@@ -19,7 +19,8 @@ public class mcd {
     }
     // Metodo per calcolare il Massimo Comune Divisore (MCD) con l'algoritmo di Euclide
     private static int calcolaMCD(int a, int b) {
-        //... scrivere il codice mancante ...
+        
         return 999;
+
     }
 }
