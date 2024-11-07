@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class mcd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,13 +15,19 @@ public class mcd {
 
         // Stampare il risultato
         System.out.println("Il Massimo Comune Divisore di " + numero1 + " e " + numero2 + " è: " + mcd);
+
         // Chiudi lo scanner
         scanner.close();
     }
+
     // Metodo per calcolare il Massimo Comune Divisore (MCD) con l'algoritmo di Euclide
     private static int calcolaMCD(int a, int b) {
-        
-        return 999;
-
+        // Applicazione dell'algoritmo di Euclide
+        while (b != 0) {
+            int resto = a % b;
+            a = b;
+            b = resto;
+        }
+        return a; // Quando b = 0, a è il MCD
     }
 }
