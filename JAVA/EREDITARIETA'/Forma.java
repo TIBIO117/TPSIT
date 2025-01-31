@@ -5,8 +5,8 @@ calcolaArea(): restituisce 0 (sarà sovrascritto nelle sottoclassi).
 calcolaPerimetro(): restituisce 0 (sarà sovrascritto nelle sottoclassi).
 descrizione(): stampa il nome della forma. */
 
-private class Forma {
-    
+class Forma {
+        
     private String nome;
 
     public Forma(String nome) {
